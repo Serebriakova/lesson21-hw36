@@ -1,5 +1,5 @@
 function generateList(data) {
-  let list = document.createElement("ul");
+  const list = document.createElement("ul");
   const body = document.body;
   body.append(list);
 
